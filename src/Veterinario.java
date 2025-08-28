@@ -4,9 +4,14 @@ public class Veterinario extends Persona{
         super(nom);
         this.especialidad=esp;
     }
+
+    public String getEspecialidad() {
+        return especialidad;
+    }
+
     @Override
     public void mostrarInfo(){
         System.out.println("Nombre: "+this.nombre);
-        System.out.println("Nombre: "+this.especialidad);
+        System.out.println("Especialidad: "+this.especialidad);
     }
 }

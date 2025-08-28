@@ -4,6 +4,10 @@ public class Persona {
         this.nombre=nom;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
     public void mostrarInfo(){
         System.out.println("Nombre:"+nombre);
 

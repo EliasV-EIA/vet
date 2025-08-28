@@ -1,6 +1,10 @@
-public class ItemsFactura {
-    String nombre;
-    int cantidad;
-    double precioV;
-    double subtotal;
-}
+    public abstract class ItemsFactura {
+        protected String nombre;
+        protected double precio;
+
+        public ItemsFactura(String n, double s) {
+            this.nombre = n;
+            this.precio = s;
+        }
+    public abstract double calcularSubtotal();
+    }

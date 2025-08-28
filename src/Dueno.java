@@ -7,6 +7,15 @@ public class Dueno extends Persona {
         this.email=em;
         this.telefono=tel;
     }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
     @Override
     public void mostrarInfo(){
         System.out.println("Nombre: "+this.nombre);
