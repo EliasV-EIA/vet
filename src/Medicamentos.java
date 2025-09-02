@@ -9,7 +9,7 @@ public class Medicamentos extends ItemsFactura {
 
         return this.cantidad* this.precio;
     }
-
+@Override
     public void mostrarDetalle(){
         System.out.println("El precio del medicamento "+this.nombre+" es "+this.precio +" su subtotal siendo "+this.calcularSubtotal());
     }

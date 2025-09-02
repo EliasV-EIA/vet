@@ -6,5 +6,7 @@
             this.nombre = n;
             this.precio = s;
         }
-    public abstract double calcularSubtotal();
+        public abstract double calcularSubtotal();
+        public abstract void mostrarDetalle();
     }
+
